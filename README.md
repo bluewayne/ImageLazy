@@ -26,7 +26,7 @@ default image class name is '_imageLazy'
 you can change classname by ImageLazy('newclassname')
 
 <h2>options</h2>
-delayTime   -   the delay time to trigger loading   (default value is 1000ms)
+delayTime   -   the delay time to trigger loading   (default value is 500ms)
 
 offset      -   the offset to trigger loading       (default value is 150px)
 

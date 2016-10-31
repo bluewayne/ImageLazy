@@ -13,7 +13,7 @@
     options = options || {};
 
     var lazyClass = className || "_imageLazy";
-    var delayTime = options.delayTime || 1000;
+    var delayTime = options.delayTime || 500;
     var offset = options.offset || 150;
 
     var delay;
@@ -57,6 +57,5 @@
     _delay();
 
     window.addEventListener('scroll', _delay, false);
-
 
 })
